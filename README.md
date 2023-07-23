@@ -1,3 +1,3 @@
 # CTF
 
-Capture the flag write ups.
+Capture the flag.
