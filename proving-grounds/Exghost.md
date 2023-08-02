@@ -35,7 +35,7 @@ The following file is found from the backup pcap file.
 
 In the http stream, there is a POST multipart form request to exiftest.php.  
 
-```http
+```html
 <html lang="en">
 <head>
     <meta charset="UTF-8">
