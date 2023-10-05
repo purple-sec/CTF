@@ -154,4 +154,4 @@ This would not run in windows temp folder only nathans folder, nc is used to kee
 
 GodPotato can be found at.  
 
-`https://github.com/BeichenDream/GodPotato/releases?ref=benheater.com`
+`https://github.com/BeichenDream/GodPotato/releases`
